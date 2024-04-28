@@ -1,0 +1,40 @@
+{
+	"name": "npm-for-app-tea",
+	"author": "Maks",
+	"license": "MIT",
+	"version": "1.0.0",
+	"description": "npm-for-app-tea",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"type": "module",
+	"scripts": {
+		"build": "npx rollup -c"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MaksGolubev/npm-for-app-tea.git"
+	},
+	"keywords": [
+		"npm"
+	],
+	"bugs": {
+		"url": "https://github.com/MaksGolubev/npm-for-app-tea/issues"
+	},
+	"homepage": "https://github.com/MaksGolubev/npm-for-app-tea#readme",
+	"devDependencies": {
+		"@rollup/plugin-babel": "^6.0.4",
+		"@rollup/plugin-typescript": "^11.1.6",
+		"@types/react": "^18.3.1",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"rollup": "^4.17.0",
+		"tslib": "^2.6.2",
+		"typescript": "^5.4.5"
+	},
+	"dependencies": {
+		"gulp-cheerio": "^1.0.0",
+		"isotope-layout": "^3.0.6",
+		"new-npm-testnet-tea": "^1.0.4",
+		"simplebar": "latest"
+	}
+}
